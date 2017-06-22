@@ -4,7 +4,7 @@ class RTriangle{
 
 	static void printStar(int number){
 
-			while(number>0){
+		while(number>0){
 			System.out.print("*");
 			number--;
 		}
@@ -17,7 +17,7 @@ class RTriangle{
 		Scanner sc=new Scanner(System.in); 
 		int starNumber = sc.nextInt();
 		int i;
-		
+
 		for(i=1;i<=starNumber;i++)
 			printStar(i);
 		

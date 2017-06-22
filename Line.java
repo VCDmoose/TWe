@@ -4,7 +4,7 @@ class Line{
 
 	static void printStar(int number){
 
-			while(number>0){
+		while(number>0){
 			System.out.print("*");
 			number--;
 		}
